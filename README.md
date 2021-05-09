@@ -27,6 +27,38 @@ This is a transnational data set which contains all the transactions occurring b
 
 ### Attribute Information:
 
-InvoiceNo : Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction.StockCode : Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.Description : Product (item) name. Nominal.Quantity : The quantities of each product (item) per transaction. Numeric.InvoiceDate : Invice Date and time. Numeric, the day and time when each transaction was generated.UnitPrice : Unit price. Numeric, Product price per unit in sterling.CustomerID : Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.Country : Country name. Nominal, the name of the country where each customer resides.
+InvoiceNo : Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction.
+StockCode : Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+Description : Product (item) name. Nominal.
+Quantity : The quantities of each product (item) per transaction. Numeric.
+InvoiceDate : Invice Date and time. Numeric, the day and time when each transaction was generated.
+UnitPrice : Unit price. Numeric, Product price per unit in sterling.
+CustomerID : Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+Country : Country name. Nominal, the name of the country where each customer resides.
 TotalPrice : Total price is multiplied from UnitPrice and Quantity of products.
+
+### Statistical Analysis: 
+ 
+The Kruskal-Wallis Test A collection of data samples are independent if they come from unrelated populations and the samples do not affect each other. Using the Kruskal-Wallis Test, we can decide whether the population distributions are identical without assuming them to follow the normal distribution.
+
+
+### Customer Segmentation Using K-means Clustering:
+
+We preprocess the data and divided the dataset in two for segmentation for better understanding  at first we Customer segmented the data like Country wise Customer segmentation and next by product Based Customer segmentation. And we got good result out of this Data’s which are deatil explain in the dashboard.
+
+### Conclusion:
+This dataset offers myriad opportunities for practising skills in e-commerce sales analysis and customer segmentation. There are some other variables it would be nice to have in the dataset such as categories for the products.
+
+We were able to group our customers based on Country and purchase behaviour and we managed to detect factors for each group. The best way forward is to prepare specific interactions for each one.
+
+#### Here are some ideas:
+
+We can offer selected promotions for products from their groups of interest. We could periodically send the discount offers by email or show the message right after the user logs present in the data.
+
+A big part of regular customers or Loyal customers may be entrepreneurs, so they order wholesale quantities of products. We can prepare an offer for them to get an extra discount when they buy in bulk products.
+
+For one time customers might be encouraged to return if we inform them about new and/or unique products from our line. We could even include recommendations from the appropriate influencers and can offer some special offers to attract this kind of customers.
+
+
+
 
